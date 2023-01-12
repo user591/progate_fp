@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Final Project Progate</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      body {
+          background-image: url("kereta.jpg"); 
+          }
+      </style> 
+      <script type="text/javascript">
+      function cekNama(form) {
+      if (form.nama.value =="") {
+        alert("Nama harus diisi");
+        form.nama.focus();
+        return(false);
+      }
+      alert("Terima kasih," + form.nama.value);
+      return(true);
+    }
+      </script> 
+</head>
+<header>
+  <div class="container">
+    <div class="container">
+      <div class="header-left">
+        <img class="logo" src="">
+      </div>
+    </div>
+    <div class="header-right">
+      <a href="#" class="login">Log in</a>
+      <a href="#">Contact</a>
+      <a href="#">About us</a>
+      <a href="#">Home</a>
+      
+    </div>
+  </div>
+</header>
+<div class="top-wrapper">
+  <div class="container">
+    <h1>WELCOME ADVENTURERS.</h1>
+    <h2>Jobs fill your pocket, Adventures fill your soul.</h2>
+    <h3><i>take your time</i></h3>
+  </div>
+
+  <form>
+    <input class="search" type="text" placeholder="Search..." required>
+    <input class="button" type="button" value="Search">		
+</form>
+</div>
+<body style="background-color: #F2DDCC;">
+      <div class="title-wrapper" style="background-color: #F2DDCC;">
+        <div class="container">
+          <div class="heading">
+            <h3>Destinasi di Pulau Bali</h3>
+          </div>
+          <div class="destination">
+            <div class="bali">
+              <div class="bali-icon">
+                <img src="foto/double-six-beach.jpg">
+                 <h4>Double Six Beach</h4>
+              </div>
+            </div>
+            <div class="bali">
+              <div class="bali-icon">
+                <img src="foto/Garuda-Wisnu-Kencana.jpg">
+                <h4>Garuda Wisnu Kencana</h4>
+              </div>
+            </div>
+            <div class="bali">
+              <div class="bali-icon">
+                <img src="foto/kelingking-beach.jpg">
+                <h4>Kelingking Beach</h4>
+              </div>
+            </div>
+            <div class="bali">
+              <div class="bali-icon">
+                <img src="foto/Kintamani.jpg">
+                <h4>Gunung Batur Kintamani</h4>
+              </div>
+            </div>
+            <div class="bali">
+              <div class="bali-icon">
+                <img src="foto/pura-besakih.jpg">
+                <h4>Pura Besakih</h4>
+              </div>
+            </div>
+            <div class="bali">
+              <div class="bali-icon">
+                <img src="foto/pura-tanah-lot.jpg">
+                <h4>Pura Tanah Lot</h4>
+              </div>
+            </div>
+            <div class="bali">
+              <div class="bali-icon">
+                <img src="foto/Pura-Ulun-Danu.jpg">
+                <h4>Pura Ulun Danu</h4>
+              </div>
+            </div>
+            <div class="bali">
+              <div class="bali-icon">
+                <img src="foto/pura-uluwatu.jpg">
+                <h4>Pura Uluwatu</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div><br><br><br><br><br>
+      <form>
+      <div class="wrapper">
+        <h2><center>Booking Form</center></h2>
+        <div class="form">
+            <div class="input_field">
+                <label>Nama</label>
+                <input type="text" class="input" placeholder="Nama Anda">
+            </div>
+
+            <div class="input_field">
+                <label>Destination</label>
+                <div class="custom_select">
+                    <select>
+                        <option  value="">Choose Destination!</option>
+                        <option  value="">Pulau Bali</option>
+                        <option  value="">Garuda Wisu Kencana</option>
+                        <option  value="">Kelingking Beach</option>
+                        <option  value="">Gunung Batur Kintamani</option>
+                        <option  value="">Pura Besakih</option>
+                        <option  value="">Pura Tanah Lot</option>
+                        <option  value="">Pura Ulun Danu</option>
+                        <option  value="">Pura Uluwatu</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="input_field">
+                <label>NO KTP</label>
+                <input type="text" class="input" placeholder="No KTP">
+            </div>
+
+            <div class="input_field">
+                <label>Tanggal Berangkat</label>
+                <input type="date" class="input" placeholder="Tanggal Berangkat">
+            </div>
+            
+            <div class="input_field">
+              <label>Email</label>
+              <input type="text" class="input" placeholder="Email">
+          </div>
+
+            <div class="input_field">
+                <label>NO Handphone</label>
+                <input type="text" class="input" placeholder="No HP">
+            </div>
+
+            <div class="input_field">
+                <input type="submit" value="Submit" onclick = "cekNama(this.form)">
+            </div>
+        </div>
+    </div>
+    </form>
+  
+</body>
+<footer>
+    <div class="footer">
+      <h2>Contact Here!</h2>
+      <p>alfinanurhidayah@students.amikom.ac.id</p>
+      <p>Yogyakarta, Indonesia</p>
+      <p>(62) 85159211519</p><br>
+        <h4>more info :</h4>
+        <center>
+        <div class="grid-container">
+              <div class="grid-item">
+                  <a href="https://instagram.com/user591.id" target="_blank"><img width="20" src="https://cdn-icons-png.flaticon.com/512/1384/1384031.png"></a>
+                  <p  href="https://instagram.com/user591.id" target="_blank"> Instagram </p>
+              </div>
+              <div class="grid-item">
+                  <a href="https://www.linkedin.com/in/alfina-nur-hidayah-9aa584232/" target="_blank"><img width="20" src="https://cdn-icons-png.flaticon.com/512/3536/3536569.png"></a>
+                  <p> Linkedin </p>
+              </div>
+              <div class="grid-item">
+                  <a href="https://github.com/user591" target="_blank"> <img  width="20" src="https://cdn-icons-png.flaticon.com/512/2111/2111432.png"></a>
+                  <p> GitHub </p>
+              </div>
+        </div>
+      </center>
+    </div>
+</footer>
+
+</html>
